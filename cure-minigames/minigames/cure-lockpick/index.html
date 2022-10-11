@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+    <meta charset="UTF-8">
+    <title>Cure Lockpicks Minigame</title>
+	<link rel="canonical" href="index.html" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="favicon.ico" sizes="32x32" />
+    <link rel="stylesheet" type="text/css" href="minigamefcdc.css?v=20211210">
+    <script defer src="script.js?v=2021210"></script>
+    <style>
+        body{
+            background-color: #212529!important;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+}
+
+#canvas {
+    display: block;
+    margin: auto;
+    width: 200px;
+    position: relative;
+    top:20%;
+}
+
+.stats{
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: -20px auto auto;
+    background-color: green;
+    padding: 10px 20px;
+    border-radius: 18px;
+}
+.stats.wrong{
+    background-color: red;
+}
+.stats .text{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Bebas Neue';
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 18px;
+}
+.stats .value{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Bebas Neue';
+    font-weight: bold;
+    color: white;
+}
+
+.credits{
+    font-family: 'Bebas Neue';
+    text-align: center;
+    color: gray;
+    margin: 20px auto;
+    width: 100%;
+    font-size: 12px;
+}
+.credits b{
+    color: white;
+}
+.credits a{
+    color: #ccc;
+}
+    </style>
+</head>
+<body class="jss01">
+    <canvas id="canvas" width="300" height="300"></canvas>
+</body>
+
+</html>
